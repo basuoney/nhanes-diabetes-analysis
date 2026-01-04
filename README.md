@@ -1,5 +1,3 @@
-# nhanes-diabetes-analysis
-
 # Diabetes Risk Analysis - NHANES Data
 
 Analyzing what factors are associated with diabetes using public health survey data from NHANES.
@@ -87,10 +85,4 @@ Takes about 30 seconds. Creates all the plots and outputs.
 4. Sometimes "non-significant" results are the most interesting because they make you question your assumptions
 5. A simple model that you understand is better than a complex one you don't
 
-This was my first complete start-to-finish health data analysis project. Not perfect but I learned a ton about what goes into real public health research beyond just running models.
 
----
-
-**Contact:** [Your Name] | [your.email@example.com]
-
-*January 2026 - Created for MPH Data Science application*
