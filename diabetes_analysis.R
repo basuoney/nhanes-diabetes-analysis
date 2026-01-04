@@ -45,8 +45,9 @@ diabetes_subset %>%
   ) %>%
   print()
 
-cat("\nNote: Complete and incomplete cases look similar, so complete case analysis\n")
-cat("      is reasonable here. For publication, multiple imputation would be better.\n\n")
+cat("\nNote: Incomplete cases tend to be younger with lower diabetes prevalence.\n")
+cat("Complete-case analysis is reasonable for adult diabetes risk,\n")
+cat("but may limit generalizability to children and adolescents.\n\n")
 
 # Clean data
 diabetes_data <- diabetes_subset %>%
@@ -212,4 +213,5 @@ cat("- Complete case analysis (lost 20% of data)\n")
 cat("- Cross-sectional, so can't establish causation\n")
 cat("- Could add more variables (diet, family history, cholesterol)\n")
 cat("- Should validate on different dataset\n")
+
 ################################################################################
